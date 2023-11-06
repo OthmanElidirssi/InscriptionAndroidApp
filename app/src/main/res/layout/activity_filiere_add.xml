@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filieres.FiliereAddActivity">
+
+    <EditText
+        android:id="@+id/filiere_code_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez un Code"
+        android:layout_centerInParent="true"/>
+    <EditText
+        android:id="@+id/filiere_libelle_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez un Libellé"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/filiere_code_edit_text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filiere_add"
+        android:text="Create"
+        android:layout_below="@id/filiere_libelle_edit_text"/>
+
+</RelativeLayout>

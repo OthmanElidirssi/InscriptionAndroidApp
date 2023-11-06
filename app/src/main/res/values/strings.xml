@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="meny_open">Open</string>
+    <string name="meny_close">Close</string>
+    <array name="placeHolder">
+        <item>test</item>
+        <item>test2</item>
+    </array>
+</resources>

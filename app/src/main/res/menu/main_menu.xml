@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_roles" android:title="Gestion des Roles" android:icon="@drawable/roles"/>
+        <item android:id="@+id/nav_filieres" android:title="Gestion des Filières" android:icon="@drawable/filieres"/>
+        <item android:id="@+id/nav_students" android:title="Gestion des Etudiants" android:icon="@drawable/student"/>
+        <item android:id="@+id/nav_students_per_filiere" android:title="Etudiants par filière" android:icon="@drawable/student_filiere"/>
+    </group>
+</menu>
